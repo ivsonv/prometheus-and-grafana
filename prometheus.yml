@@ -26,3 +26,8 @@ scrape_configs:
     static_configs:
     - targets:
       - cadvisor:8080
+
+  - job_name: goapp
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['host.docker.internal:8181'] # MAC - MACHINE VIRTUAL, host.docker.internal = outside the container
