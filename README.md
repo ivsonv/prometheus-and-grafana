@@ -16,3 +16,12 @@ docker compose up
 * Grafana -> dashboard -> import: Past ID
 * Cadvisor exporter (https://grafana.com/grafana/dashboards/14282-cadvisor-exporter/)
 <img width="1029" alt="image" src="https://github.com/ivsonv/prometheus-and-grafana/assets/63156114/e44cd715-c2bc-4d7a-806b-489b152e19c0)">
+
+### Integrations GOAPP x PROMETHEUS
+```sh
+go run main.go
+docker compose up -d
+```
+<img width="1029" alt="image" src="https://github.com/ivsonv/prometheus-and-grafana/assets/63156114/8b23dd04-4bc8-4cd0-96b1-26503f57a9fa">
+<img width="1029" alt="image" src="https://github.com/ivsonv/prometheus-and-grafana/assets/63156114/fb3b42f2-cc74-40fc-9e73-2305bddc8609">
+<img width="1029" alt="image" src="https://github.com/ivsonv/prometheus-and-grafana/assets/63156114/6c1dbce2-107b-4ea4-88fc-95a429108af2">
